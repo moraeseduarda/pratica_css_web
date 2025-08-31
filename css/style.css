@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #B4D1EC;
+}
+
+.main-section {
+    background-color: #fff;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.logo-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section img {
+    width: 400px;
+}
+
+.logo-section p {
+    font-size: 20px;
+}
+
+.ad-section {
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+.aside-content {
+    background-color: #E2E8FD;
+}
+
+.img-google {
+    width: 100px;
+}
+
+.acesse-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: #fff solid 2px;
+    padding: 8px;
+}
+
+.entre-content {
+    border: #fff solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.botao-login {
+    padding: 5px;
+}
+
+span {
+    color: #E95B95;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #89B1D6;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 18px;
+}
